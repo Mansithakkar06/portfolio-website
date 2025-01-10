@@ -25,18 +25,22 @@ html {
     z-index: 100;
     background-color: white;
 }
-.imgname{
+
+.imgname {
     display: flex;
     gap: 0.5rem;
 }
-.imgname img{
+
+.imgname img {
     border-radius: 50%;
     border: 2px double rgb(136, 102, 102);
 }
-.imgname h3{
+
+.imgname h3 {
     padding-top: 0.6rem;
 }
-.imgname a{
+
+.imgname a {
     text-decoration: none;
     color: black;
     display: flex;
@@ -332,7 +336,7 @@ html {
     .secondsection {
         padding: 4rem 2rem;
     }
-    
+
     .about-content h3 {
         font-size: 1.5rem;
     }
@@ -403,21 +407,26 @@ html {
     margin: 5px 0;
     color: #555;
 }
-@media (max-width:768px){
-    .thirdsection{
+
+@media (max-width:768px) {
+    .thirdsection {
         width: 90%;
     }
+
     .edutitle {
         font-size: 2.1rem;
         text-align: center;
     }
+
     .edutitle::after {
         left: 45%;
     }
-    .education-item h3{
+
+    .education-item h3 {
         font-size: 1.1rem;
     }
-    .education-item p{
+
+    .education-item p {
         font-size: 0.9rem;
     }
 }
@@ -426,6 +435,7 @@ html {
 .forthsection {
     padding: 4rem 2rem;
 }
+
 .project-content {
     margin: 0px auto;
     max-width: 1200px;
@@ -466,19 +476,23 @@ html {
     line-height: 1.7;
     color: #444343;
 }
-.projects a{
+
+.projects a {
     text-decoration: none;
     color: blue;
 }
-.tech{
+
+.tech {
     color: #061119;
 }
+
 @media (max-width:768px) {
     .project-content {
         grid-template-columns: 1fr;
         text-align: left;
         padding: 0.5rem;
     }
+
     .forthsection {
         padding: 2rem 2rem;
     }
@@ -494,18 +508,26 @@ html {
     .projects p {
         font-size: 1rem;
     }
-    .project-content-right{
+
+    .project-content-right {
         margin-top: -4rem;
     }
-   
+
+    .projects a {
+        text-decoration: none;
+        color: blue;
+        font-size: 0.8rem;
+    }
+
 }
 
-.fifthsection{
+.fifthsection {
     max-width: 800px;
     margin: 0 auto;
     padding: 40px 20px;
 }
-.contact-form{
+
+.contact-form {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -516,26 +538,30 @@ html {
     box-shadow: 0 4px 10px rgb(226, 221, 221);
 }
 
-.form-group{
+.form-group {
     display: flex;
     flex-direction: column;
 }
-.form-control{
+
+.form-control {
     padding: 12px 16px;
     border: 1px solid #e0e0e0;
     border-radius: 8px;
     font-size: 1rem;
 }
-.form-control:focus{
+
+.form-control:focus {
     outline: none;
     border-color: #4070f4;
-    box-shadow: 0 0 0 2px rgba(0,0,0,0.121);
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.121);
 }
-.textarea.form-control{
+
+.textarea.form-control {
     min-height: 200px;
     resize: vertical;
 }
-.sub-btn{
+
+.sub-btn {
     align-self: center;
     background-color: #4070f4;
     color: white;
@@ -546,14 +572,17 @@ html {
     font-weight: 500;
     cursor: pointer;
 }
-.sub-btn:hover{
+
+.sub-btn:hover {
     background-color: #3367d6;
 }
-@media (max-width:768px){
-    .contact-form{
+
+@media (max-width:768px) {
+    .contact-form {
         padding: 20px;
     }
-    .sub-btn{
+
+    .sub-btn {
         width: 100%;
     }
 }
@@ -563,6 +592,7 @@ html {
     text-align: center;
     background-color: #1a1a40;
     color: white;
+    padding: 40px 20px;
 }
 
 .footer-right a {
@@ -591,4 +621,3 @@ html {
     }
 
 }
-

@@ -432,7 +432,74 @@ html {
 }
 
 
-.forthsection {
+.exptitle {
+    font-size: 2.5rem;
+    color: rgb(13, 13, 100);
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.exptitle::after {
+    content: '';
+    position: absolute;
+    left: 6%;
+    bottom: -8px;
+    width: 80px;
+    height: 3px;
+    background-color: #3498db;
+    transform: translateX(-50%);
+}
+
+#experience {
+    margin: 2rem;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.experience-details {
+    margin-bottom: 20px;
+}
+
+.experience-details h3 {
+    font-size: 1.5em;
+    color: #034c73;
+}
+
+.experience-details p {
+    margin: 5px 0;
+    color: #555;
+}
+.experience-details ul{
+    margin:5px 5px;
+    padding: 3px 10px;
+}
+
+@media (max-width:768px) {
+    .fourthsection {
+        width: 90%;
+    }
+
+    .exptitle {
+        font-size: 2.1rem;
+        text-align: center;
+    }
+
+    .exptitle::after {
+        left: 45%;
+    }
+
+    .experience-details h3 {
+        font-size: 1.1rem;
+    }
+
+    .experience-details p {
+        font-size: 0.9rem;
+    }
+}
+
+
+.fifthsection {
     padding: 4rem 2rem;
 }
 
@@ -493,7 +560,7 @@ html {
         padding: 0.5rem;
     }
 
-    .forthsection {
+    .fifthsection {
         padding: 2rem 1rem;
     }
 
@@ -521,7 +588,7 @@ html {
 
 }
 
-.fifthsection {
+.sixthsection {
     max-width: 800px;
     margin: 0 auto;
     padding: 40px 20px;

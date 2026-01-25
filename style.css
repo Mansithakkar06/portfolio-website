@@ -382,9 +382,9 @@ html {
 }
 
 #education {
-    margin: 2rem;
-    padding: 20px;
-    background-color: #f9f9f9;
+    max-width: 1200px;
+    margin: 4rem auto;
+    /* background-color: #f9f9f9; */
     border-radius: 8px;
 }
 
@@ -451,9 +451,9 @@ html {
 }
 
 #experience {
-    margin: 2rem;
-    padding: 20px;
-    background-color: #f9f9f9;
+    max-width: 1200px;
+    margin: 4rem auto;
+    /* background-color: #f9f9f9; */
     border-radius: 8px;
 }
 
@@ -564,7 +564,7 @@ html {
     }
 
     .fifthsection {
-        padding: 2rem 1rem;
+        padding: 1rem 0.8rem;
     }
 
     .projects h3 {
@@ -690,4 +690,100 @@ html {
         font-size: 1.3rem;
     }
 
+}
+
+
+   /* Featured Project */
+
+.highlight-project {
+    max-width: 1200px;
+    margin: 0 auto 4rem auto;
+}
+
+.highlight-title {
+    text-align: center;
+    font-size: 2.3rem;
+    color: rgb(13, 13, 100);
+    margin-bottom: 1.8rem;
+}
+
+.project-name {
+    font-size: 2rem;
+    color: rgb(13, 13, 100);
+    margin-bottom: 0.8rem;
+}
+
+.project-desc {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #444343;
+    max-width: 1200px;
+}
+
+.tech-stack {
+    margin-top: 0.6rem;
+    font-size: 1.05rem;
+}
+
+.project-links {
+    margin: 1.2rem 0 2rem;
+}
+
+.project-links a {
+    margin-right: 1.5rem;
+    text-decoration: none;
+    font-weight: 500;
+    color: #1a73e8;
+}
+
+.project-links a i {
+    margin-right: 6px;
+}
+
+.screenshot-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1.5rem;
+}
+
+.screenshot-grid img {
+    width: 100%;
+    height: auto;      
+    object-fit: contain; 
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.screenshot-grid img:hover {
+    transform: scale(1.03);
+}
+
+@media (max-width: 1024px) {
+    .screenshot-grid {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 768px) {
+    .screenshot-grid {
+        grid-template-columns: 1fr; 
+    }
+}
+
+
+@media (max-width: 768px) {
+    .highlight-title {
+        font-size: 2rem;
+    }
+
+    .project-name {
+        font-size: 1.6rem;
+    }
+
+    .screenshot-grid {
+        grid-template-columns: 1fr;
+    }
+    .link{
+        font-size: 0.8rem;
+    }
 }

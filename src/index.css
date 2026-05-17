@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-darkBg text-slate-200 font-sans antialiased overflow-x-hidden;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-darkCard/80 backdrop-blur-md border border-slate-700/50 shadow-xl;
+  }
+  
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primaryLight to-indigo-400;
+  }
+
+  .glow {
+    @apply relative;
+  }
+  .glow::before {
+    @apply content-[''] absolute -inset-1 bg-gradient-to-r from-primary to-indigo-500 rounded-full blur opacity-20 transition duration-1000 group-hover:opacity-100;
+  }
+}

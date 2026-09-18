@@ -3,9 +3,19 @@ import React from 'react';
 const Experience = () => {
   const experiences = [
     {
+      role: "Software Engineer",
+      company: "Upsquare Technologies, Ahmedabad",
+      duration: "Feb 2026 - Present",
+      details: [
+        "Developed a full-stack MERN e-commerce application using React.js, Node.js, Express.js, MongoDB, Redux Toolkit, and REST APIs.",
+        "Contributed to a client-facing Vue.js application by developing responsive UI components, implementing frontend features, and integrating REST APIs.",
+        "Collaborated with the development team to build, optimize, and deliver high-quality web applications."
+      ]
+    },
+    {
       role: "PHP Developer Intern - Laravel",
       company: "Webexpert Infotech, Ahmedabad",
-      duration: "6 Months",
+      duration: "Jan 2025 – Jul 2025",
       details: [
         "Developed RESTful APIs and CRUD modules using Laravel and MySQL for backend.",
         "Implemented authentication logic and integrated backend APIs with frontend components.",

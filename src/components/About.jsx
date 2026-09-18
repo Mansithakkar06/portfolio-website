@@ -2,11 +2,11 @@ import React from 'react';
 
 const About = () => {
   const skills = [
-    { category: 'Frontend', items: ['React.js', 'Redux Toolkit', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'Bootstrap', 'React Hook Form'] },
-    { category: 'Backend', items: ['Node.js', 'Express.js', 'Nest.js', 'RESTful APIs', 'JWT'] },
+    { category: 'Frontend', items: ['React.js', 'Vue.js', 'JavaScript', 'Redux Toolkit', 'HTML5', 'CSS3', 'Tailwind CSS', 'Bootstrap'] },
+    { category: 'Backend', items: ['Node.js', 'Express.js', 'RESTful APIs', 'JWT-based Authentication', 'Laravel'] },
     { category: 'Databases', items: ['MongoDB', 'MySQL'] },
-    { category: 'Languages', items: ['JavaScript', 'TypeScript'] },
-    { category: 'Tools', items: ['Git', 'GitHub', 'Appwrite', 'Postman', 'VS Code', 'Android Studio'] },
+    { category: 'Familiar with', items: ['TypeScript', 'NestJS'] },
+    { category: 'Tools', items: ['Git', 'GitHub', 'Postman', 'Appwrite', 'Cloudinary', 'VS Code', 'Antigravity'] },
   ];
 
   return (
@@ -21,13 +21,13 @@ const About = () => {
         <div className="flex flex-col gap-6 text-slate-300 text-lg leading-relaxed">
           <h3 className="text-2xl font-semibold text-primaryLight">Get to Know Me</h3>
           <p>
-            Hello! I’m <strong className="text-slate-100 font-medium">Mansi Thakkar</strong>, a full-stack web developer with experience across both frontend and backend technologies. I’m currently focused on the MERN stack and constantly learning to improve my skills.
+            Hello! I'm <strong className="text-slate-100 font-medium">Mansi Thakkar</strong>, a full-stack web developer with professional experience across both frontend and backend technologies. I currently work as a Software Engineer, building production applications with the MERN stack and Vue.js.
           </p>
           <p>
-            As an MCA graduate with a strong foundation in full-stack development, I've built hands-on projects using PHP, Django, and React. After completing a Laravel internship, I’ve chosen to master the <strong className="text-slate-100 font-medium">MERN stack</strong>, a future-proof technology for building modern web applications.
+            As an MCA graduate with a strong foundation in full-stack development, I've built hands-on projects using PHP, Django, and React. After completing a Laravel internship, I transitioned to the <strong className="text-slate-100 font-medium">MERN stack</strong> and have since grown into a professional software engineering role.
           </p>
           <p>
-            I am currently developing MERN-based portfolio projects and actively preparing for full-time software development roles.
+            I'm passionate about writing clean, scalable code and continuously expanding my skill set to deliver high-quality web applications.
           </p>
 
           <div className="mt-6 flex gap-6">
@@ -45,7 +45,7 @@ const About = () => {
 
         {/* Skills */}
         <div className="glass rounded-2xl p-8 shadow-xl">
-          <h3 className="text-2xl font-semibold text-primaryLight mb-8">Technical Arsenal</h3>
+          <h3 className="text-2xl font-semibold text-primaryLight mb-8">Technical Skills</h3>
           <div className="flex flex-col gap-6">
             {skills.map((skillGroup) => (
               <div key={skillGroup.category}>

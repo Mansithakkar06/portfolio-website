@@ -1,0 +1,10 @@
+{
+  "watch": [
+    "tailwind.config.js",
+    "vite.config.js",
+    "postcss.config.js",
+    "package.json"
+  ],
+  "ext": "js,cjs,mjs,json",
+  "ignore": ["node_modules", "dist"]
+}
